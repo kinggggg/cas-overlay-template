@@ -1,4 +1,4 @@
-package org.apereo.cas;
+package com.wusong.cas;
 
 
 import org.springframework.stereotype.Controller;
