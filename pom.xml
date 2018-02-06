@@ -68,6 +68,12 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>org.apereo.cas</groupId>
+            <artifactId>cas-server-support-rest</artifactId>
+            <version>${cas.version}</version>
+        </dependency>
+
         <!--服务注册-->
         <dependency>
             <groupId>org.apereo.cas</groupId>
