@@ -68,6 +68,14 @@
 
     <dependencies>
 
+        <!--开启swagger-->
+        <dependency>
+            <groupId>org.apereo.cas</groupId>
+            <artifactId>cas-server-documentation-swagger</artifactId>
+            <version>${cas.version}</version>
+        </dependency>
+
+        <!--开启cas server的rest支持-->
         <dependency>
             <groupId>org.apereo.cas</groupId>
             <artifactId>cas-server-support-rest</artifactId>
