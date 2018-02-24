@@ -7,4 +7,5 @@
   "serviceId" : "^http://.*",
   "name" : "HTTP",
   "id" : 10000003,
+  "evaluationOrder" : 11
 }
