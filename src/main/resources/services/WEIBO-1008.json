@@ -1,0 +1,18 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^(https|http)://.*",
+  "name" : "WEIBO",
+  "id" : 1008,
+  "evaluationOrder" : 8,
+  "properties" : {
+    "@class" : "java.util.HashMap",
+    "jwtSigningSecret" : {
+      "@class" : "org.apereo.cas.services.DefaultRegisteredServiceProperty",
+      "values" : [ "java.util.HashSet", [ "g6kbT4kMAav4jbmlIg0GI9WOGyPv4yU8fumHsrBxitWBZI9izLGlo8LQ4kjKST0T7Ql4iLC2jX6jgmq18ywvcPLLby0OiPaSwEh5antocHgaslwAw2zFh20gDux4JMXVl0pgZI3kMlij2XHMI7OYDAfTbybIfJdfp6AF5NbtdDObLoBW6fntDHGMpTHkW7w27OQ3DcNsFUludJuAvUDBM2Pf2ARSvkGU8Lhhe5PpASLFPqqNFFH81MKMNOKWGKoC" ] ]
+    },
+    "jwtEncryptionSecret" : {
+      "@class" : "org.apereo.cas.services.DefaultRegisteredServiceProperty",
+      "values" : [ "java.util.HashSet", [ "6BnL91WBp3E2b9bEXnlz4EKUN3Xvmdsr6YYn8rE4R56wKiKJ" ] ]
+    }
+  }
+}

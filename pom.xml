@@ -113,6 +113,29 @@
             <version>${cas.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apereo.cas</groupId>
+            <artifactId>cas-server-support-token-webflow</artifactId>
+            <version>${cas.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apereo.cas</groupId>
+            <artifactId>cas-server-support-rest-tokens</artifactId>
+            <version>${cas.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apereo.cas</groupId>
+            <artifactId>cas-server-core</artifactId>
+            <version>${cas.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apereo.cas</groupId>
+            <artifactId>cas-server-core-configuration</artifactId>
+            <version>${cas.version}</version>
+        </dependency>
+
         <!--MySQL驱动-->
         <dependency>
             <groupId>mysql</groupId>
