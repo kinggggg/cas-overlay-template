@@ -107,6 +107,12 @@
             <version>${cas.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apereo.cas</groupId>
+            <artifactId>cas-server-support-token-tickets</artifactId>
+            <version>${cas.version}</version>
+        </dependency>
+
         <!--MySQL驱动-->
         <dependency>
             <groupId>mysql</groupId>
