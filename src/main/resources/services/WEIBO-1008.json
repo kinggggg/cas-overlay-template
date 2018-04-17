@@ -14,5 +14,9 @@
       "@class" : "org.apereo.cas.services.DefaultRegisteredServiceProperty",
       "values" : [ "java.util.HashSet", [ "6BnL91WBp3E2b9bEXnlz4EKUN3Xvmdsr6YYn8rE4R56wKiKJ" ] ]
     }
+  },
+  "proxyPolicy": {
+    "@class": "org.apereo.cas.services.RegexMatchingRegisteredServiceProxyPolicy",
+    "pattern": "^http?://.*"
   }
 }
