@@ -68,6 +68,12 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>org.apereo.cas</groupId>
+            <artifactId>cas-server-support-rest-authentication</artifactId>
+            <version>${cas.version}</version>
+        </dependency>
+
         <!--开启swagger-->
         <dependency>
             <groupId>org.apereo.cas</groupId>
